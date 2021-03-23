@@ -1,0 +1,20 @@
+table {
+  border-collapse: collapse;
+  border: solid blue 1px;
+  border-radius: 50%;
+
+  td {
+    border: solid blue 1px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+  }
+
+  td.canPlayHere {
+    background-color: rgb(112, 111, 109);
+  }
+}
+
+input[type='checkbox'] {
+  margin-bottom: 20px;
+}
